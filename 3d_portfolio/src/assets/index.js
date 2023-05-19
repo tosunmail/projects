@@ -29,8 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import stock from "./stock.png";
+import bank from "./bank.png";
+import restaurant from "./restaurant.png";
 
 export {
+  restaurant,
+  stock,
+  bank,
   logo,
   backend,
   creator,

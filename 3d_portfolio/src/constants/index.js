@@ -11,18 +11,13 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+
+  stock,
+  restaurant,
+  bank,
 } from "../assets";
 
 export const navLinks = [
@@ -46,17 +41,14 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+ 
 ];
 
 const technologies = [
@@ -92,14 +84,8 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
+
   {
     name: "git",
     icon: git,
@@ -108,63 +94,45 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented advanced React concepts such as Hooks, Context API, Redux in 2 projects, resulting in a more efficient and maintainable codebase",
+      "Utilized TypeScript to developed a large-scale React-based project, resulting in a 40% reduction in development time and improved code quality."
+        
     ],
   },
+ 
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Backend Developer",
+    
+    icon: backend,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Especially interested in Backend/Web Development, Django, Django Rest Framework, Restful API, PostgreSQL. Creating server and database for website functionality, ensuring cross-platform mobile optimization. Working with APIs and technical documentation. Focusing both on technical and consumer needs to bring up the final Product. "
+    
+    
+     
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+   
+    icon: creator,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Demonstrated ability to write efficient and maintainable code, leading to a 30% reduction in overall project development time.",
+      "Proficient in JavaScript and familiar with TypeScript, with experience in building complex and scalable web applications, resulting in the launch of 5 successful projects."
     ],
   },
 ];
@@ -198,67 +166,86 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Stock App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "StockApp: is an online single page web application that enables you to manage orders and inventory with ability to get, add, edit, or delete products, firms, brands, sales, and purchases. Technical Stack; HTML, CSS, JavaScript, React, and Material.UI.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MUI",
         color: "pink-text-gradient",
       },
+      {
+        name: "styled",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reduxjs/toolkit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-router-dom",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+       
+      },
+      {
+        name: "react-redux",
+        color: "blue-text-gradient"
+      },
+  
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: stock,
+    source_code_link: "https://github.com/tosunmail/react-work/tree/master/stock-app",
   },
   {
-    name: "Job IT",
+    name: "Restaurant App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The restaurant webpage offers key details about the restaurant, including its name, location, and contact information. The webpage may include menus, reservation options, and customer reviews to help potential customers make informed decisions. Its main objective is to attract and engage visitors, encouraging them to dine at the restaurant.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "responsive-design",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+    
+      
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: restaurant,
+    source_code_link: "https://github.com/tosunmail/projects/tree/master/restaurant",
   },
   {
-    name: "Trip Guide",
+    name: "Bank App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+   " It provides a visually appealing and intuitive design, allowing users to easily navigate through different banking features. The frontend of a bank app focuses on presenting account balances, transaction history, payment options, and other banking functionalities in a user-friendly and responsive manner.",
     tags: [
       {
-        name: "nextjs",
+        name: "js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind Css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bank,
+    source_code_link: "https://github.com/tosunmail/projects/tree/master/bank_modern_app",
   },
 ];
 
