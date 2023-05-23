@@ -32,8 +32,10 @@ import tripguide from "./tripguide.png";
 import stock from "./stock.png";
 import bank from "./bank.png";
 import restaurant from "./restaurant.png";
+import movie from "./movie.png";
 
 export {
+  movie,
   restaurant,
   stock,
   bank,

@@ -18,6 +18,7 @@ import {
   stock,
   restaurant,
   bank,
+  movie,
 } from "../assets";
 
 export const navLinks = [
@@ -206,6 +207,7 @@ const projects = [
     ],
     image: stock,
     source_code_link: "https://github.com/tosunmail/react-work/tree/master/stock-app",
+    live_link:'https://stock-app1.netlify.app/'
   },
   {
     name: "Restaurant App",
@@ -225,6 +227,7 @@ const projects = [
     ],
     image: restaurant,
     source_code_link: "https://github.com/tosunmail/projects/tree/master/restaurant",
+    live_link:'https://restaurent-app1.netlify.app/'
   },
   {
     name: "Bank App",
@@ -246,6 +249,32 @@ const projects = [
     ],
     image: bank,
     source_code_link: "https://github.com/tosunmail/projects/tree/master/bank_modern_app",
+    live_link:'https://modern-bank-app1.netlify.app/'
+  },
+  {
+    name: "Movie App",
+    description:
+   "The movie app is a software application designed to provide users with a platform to explore, search, and discover movies. It allows users to browse a vast collection of movies, view details such as ratings, reviews, and synopsis, and provides a user-friendly interface for interacting with the movie database. The app may also offer additional features like personalized recommendations, user ratings, and the ability to create watchlists. Overall, the movie app aims to enhance the movie-watching experience by offering a convenient and enjoyable way to explore the world of movies.",
+    tags: [
+      {
+        name: "js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "cypress"
+      },
+    ],
+    image: movie,
+    source_code_link: "https://github.com/tosunmail/projects/tree/master/movie-app",
+    live_link:'https://movie-anwendung.netlify.app/'
   },
 ];
 
